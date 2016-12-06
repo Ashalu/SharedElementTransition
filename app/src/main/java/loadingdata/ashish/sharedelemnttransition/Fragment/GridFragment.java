@@ -32,7 +32,7 @@ public class GridFragment extends Fragment implements KittenClickListener {
 
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recyclerview);
         recyclerView.setAdapter(new KittenGridAdapter(6, this));
-        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
+        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 1));
     }
 
     @Override
