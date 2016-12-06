@@ -12,17 +12,13 @@ import android.widget.ImageView;
 import loadingdata.ashish.sharedelemnttransition.R;
 
 /**
- * Display details for a given kitten
+ * ViewHolder for kitten cells in our grid
  *
- * @author bherbst
+ * @author aashish
  */
 public class DetailsFragment extends Fragment {
     private static final String ARG_KITTEN_NUMBER = "argKittenNumber";
 
-    /**
-     * Create a new DetailsFragment
-     * @param kittenNumber The number (between 1 and 6) of the kitten to display
-     */
     public static DetailsFragment newInstance(@IntRange(from = 1, to = 6) int kittenNumber) {
         Bundle args = new Bundle();
         args.putInt(ARG_KITTEN_NUMBER, kittenNumber);

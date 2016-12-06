@@ -5,11 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 
 import loadingdata.ashish.sharedelemnttransition.R;
 
-/**
- * Main activity that holds our fragments
- *
- * @author bherbst
- */
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -11,7 +11,7 @@ import loadingdata.ashish.sharedelemnttransition.R;
 /**
  * Adapts Views containing kittens to RecyclerView cells
  *
- * @author bherbst
+ * @author aashish
  */
 public class KittenGridAdapter extends RecyclerView.Adapter<KittenViewHolder> {
     private final int mSize;

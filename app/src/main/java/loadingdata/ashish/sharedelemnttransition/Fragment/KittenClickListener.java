@@ -3,7 +3,7 @@ package loadingdata.ashish.sharedelemnttransition.Fragment;
 /**
  * Listener for kitten click events in the grid of kittens
  *
- * @author bherbst
+ * @author aashish
  */
 public interface KittenClickListener {
     /**

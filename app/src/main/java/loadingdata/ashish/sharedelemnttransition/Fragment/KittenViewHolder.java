@@ -9,7 +9,7 @@ import loadingdata.ashish.sharedelemnttransition.R;
 /**
  * ViewHolder for kitten cells in our grid
  *
- * @author bherbst
+ * @author aashish
  */
 public class KittenViewHolder extends RecyclerView.ViewHolder {
     ImageView image;
